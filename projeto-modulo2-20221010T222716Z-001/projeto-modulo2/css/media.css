@@ -1,0 +1,99 @@
+@media screen and (max-width:700px) {
+
+    *{ 
+        margin-top:  0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        display: flex;
+        list-style: none;
+        background-size: contain;
+        gap: 2rem;
+        width: .2%;
+        height: .2%;
+        box-sizing:border-box;
+    }
+    
+    .h1{
+        margin-left: 150px;
+        font-size: 25px;
+    
+    }
+    
+    #increment{
+        flex-direction: column;
+    
+    }
+    
+    .conteiner{
+        width: 100px;
+        padding: 20px 0;
+        align-self: center;
+    }
+    
+    
+    
+    #codificadoresinp{
+        flex-direction: column;
+        width: 100px;
+        height: -100px;
+    
+    }
+    
+    
+    #textinp {  
+        width: 638px;
+        flex-direction: column;
+        display:flexbox;
+        border: 5px;
+        padding: 10px;
+    
+    }
+    
+    
+    
+    #receber{
+        margin-left: 190px;
+        width: 455px;
+        flex-direction: column;
+        display:flexbox;
+        border: 5px solid white 5px;
+    
+    }
+    button{
+        margin-left: 150px;
+    }
+    p#digiteaMensagem{
+        margin-left: 10px;
+    }
+    select#select{
+        margin-left: 150px;
+    
+    }
+    input#codificar{
+        margin-left: 150px;
+    }
+    input#descodificar{
+    
+        margin-left: 150px;
+    }
+    label{
+        margin-left: 150px;
+    }
+    input#increment{
+        margin-left: 400px;
+    }
+    textarea#receberC{
+        margin-left: 170px;
+        padding: 30px;
+        width: 410px;
+    }
+    p#escolhacodificacao{
+        margin-left: 150px;
+    }
+    
+    
+    }
